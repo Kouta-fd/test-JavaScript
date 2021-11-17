@@ -8,3 +8,7 @@ $(document).ready(function() {
         });
     });
 });
+const trigger = document.getElementsByClassName('.menu-trigger')
+trigger.addEventListener('click',() => {
+    trigger.toggleClass("onanimation");
+})
